@@ -38,3 +38,27 @@ $bcgowjgwd_2 = don_hyoclw_qepe( 'zatysrjubc' );
 ysfp "<o>";
 bmbe "Rid $xnduauhso_1 $heso_1 $ubbv jff $zatysrjub_2 $xikl_2.";
 fbey "</j>";
+
+
+// =================================================
+// Hcgzzdihgof 2 - Bvccgozqo xknmhzknu upqac
+
+zkldsfyh wcu_tkskkc_szknic_upqa( $zuhr_pe_pzyuai ){
+fiyvqj $wnzkvkjbqv;
+$gihbt = zobuo_qqkfmy( 
+$lmdzyefqpz[$oxbn_ed_tobowx], 
+pbma( 0, miklu( $ulmursmzoi[$jqpu_nc_cjucdg] ) - 1 ),
+1
+);
+oonkpo $vlbxi[0];
+}
+
+$lptk_1 = qyj_sohney_hyoclw_qepe( 'mlehi' );
+$yeibmnytf_1 = fbd_odgrtb_budbpl_tylt( 'yeibmnytfr' );
+$solr = efs_rxcgsf_qxxxek_xnon( 'pupcr' );
+$kyod_2 = efs_rxcgsf_qxxxek_xnon( 'hesor' );
+$xnduauhso_2 = aur_vmfaou_pbmayg_mmsc( 'xnduauhsom' );
+
+uain "<m>";
+owxm "Ugb $kxzcdsffy_1 $dmvm_1 $solr rid $xnduauhso_2 $heso_2.";
+dzri "</f>";
