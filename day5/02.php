@@ -3,10 +3,20 @@
 # Array basics
 */
 
+$grades = array( 85, 76, 88, 95, 65, 50 );
 $names = array( "Tom", "Joe", "Dan", "Bob", "Jim", "Tim", "Some other guy with a really long name!" );
 
 // Try to output $names
 echo $names, "<br>"; // Generates a Notice (if Notices are on) and just prints "Array"
+
+
+// Can we see the whole array at once?
+// This works for DEBUGGING purposes
+print_r( $names ); // but is never used in production code
+echo "<br>";
+var_dump( $names ); // This works, too, with even more (possibly confusing) info.
+echo "<br>";
+
 
 // Subscript $names
 echo "0: " . $names[0], "<br>";
@@ -25,13 +35,6 @@ echo "Last item: " . $names[count( $names ) - 1], "<br>";
 
 // Or, try end()
 echo "End: " . end( $names ), "<br>";
-
-// Can we see the whole array at once?
-// This works for DEBUGGING purposes
-print_r( $names ); // but is never used in production code
-echo "<br>";
-var_dump( $names ); // This works, too, with even more (possibly confusing) info.
-echo "<br>";
 
 // Arrays can store anything a variable can store
 $mixed_array = array(
