@@ -8,7 +8,7 @@ $true = true;
 $false = false;
 
 echo $true, "<br>"; // Echoes "1"
-echo $false, "<br>"; // Ecoes nothing
+echo $false, "<br>"; // Echoes nothing
 
 // Testing
 if ( true ){
@@ -17,6 +17,52 @@ if ( true ){
 
 if ( false ){
 	echo "You will never see this message."; // Doesn't execute
+}
+
+
+
+// Possibly surprisingly other things can be true or false...
+// Strings
+if ( "something" ){ // true
+	echo "I got something", "<br>";
+}
+
+if ( "" ){ // false
+	echo "This will never show up";
+}
+
+// Numbers
+if ( 1 ){ //true
+	echo "Any number is true", "<br>";
+}
+
+if ( 42 ){ //true
+	echo "This is very true", "<br>";
+}
+
+if ( -1 ){ //true
+	echo "Surprisingly, this is true too", "<br>";
+}
+
+if ( 0 ){ //false
+	echo "Except for 0.";
+}
+
+
+// Arrays and variables
+$sum = 10 + 4 + 2 + 6;
+if ( $sum ){ // true
+	echo "Some sum.", "<br>";
+}
+
+$some_array = array( "a", "b", "c" );
+if ( $some_array ){ // true
+	echo "Yes, there are items in this array", "<br>";
+}
+
+$empty_array = array();
+if ( $empty_array ){ // false
+	echo "No, this array is empty";
 }
 
 // Let's look at it another way:
@@ -74,7 +120,7 @@ if ( $number == 5 ){
 	echo "Is equal to 5!", "<br>";
 }
 
-if ( ! $number != 4 ){
+if ( $number != 4 ){
 	echo "Is not equal to 4!", "<br>";
 }
 
