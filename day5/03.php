@@ -57,3 +57,9 @@ for ( $i = 0; $i < count( $names ); $i = $i + 2 ){
 for ( $i = count( $names ) - 1; $i > -1; $i -= 1 ){
 	echo "[$i] {$names[$i]}", "<br>"; 
 }
+
+// Less awkward, once you're used to it
+// Backward?
+for ( $i = count( $names ); $i--; ){
+	echo "[$i] {$names[$i]}", "<br>"; 
+}
