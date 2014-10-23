@@ -1,0 +1,57 @@
+/* Base stylesheet */
+
+body {
+	font-size: 2em;
+}
+
+%wrapped {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+header {
+	@extend %wrapped;
+
+	p {
+		color: silver;
+	}
+}
+
+main {
+	@extend %wrapped;
+
+	background: #ddd;
+	padding: 1em;
+
+	/* Silly margin collapse rule makes all this necessary */
+	p {
+		margin-bottom: 0;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	fieldset {
+		margin-top: 1em;
+	}
+	/* /end silly margin collapse rule */
+}
+
+form {
+	input {
+		height: 2em;
+		/* Make the text size match everything else */
+		font-size: 1em;
+		padding: 0 .5em;
+
+		&[type=submit] {
+			/* Fill the available area */
+			width: 100%;
+		}
+	}
+}
+
+footer {
+	@extend %wrapped;
+}

@@ -6,15 +6,15 @@
 	<title>HTML Form</title>
 
 	<!-- Include the site stylesheet -->
-	<link href="css/01.css" rel="stylesheet" media="all">
+	<link href="css/03.css" rel="stylesheet" media="all">
 </head>
 <body>
 
 	<!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation -->
 	<!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
 	<header role="banner">
-		<h1><abbr title="HyperText Markup Language 5">HTML5</abbr> Form</h1>
-		<p>Demonstrating how to create a simple HTML5 user input form.</p>
+		<h1>Form Styling</h1>
+		<p>Take a look at the SCSS / CSS file to see how we're styling this form.</p>
 	</header>
 
 	<!-- The <main> element is used to enclose the main content, i.e. that which contains the central topic of a document -->

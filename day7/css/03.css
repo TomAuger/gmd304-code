@@ -1,0 +1,33 @@
+/* Base stylesheet */
+body {
+  font-size: 2em; }
+
+header, main, footer {
+  max-width: 600px;
+  margin: 0 auto; }
+
+header p {
+  color: silver; }
+
+main {
+  background: #ddd;
+  padding: 1em;
+  /* Silly margin collapse rule makes all this necessary */
+  /* /end silly margin collapse rule */ }
+  main p {
+    margin-bottom: 0; }
+    main p:first-child {
+      margin-top: 0; }
+  main fieldset {
+    margin-top: 1em; }
+
+form input {
+  height: 2em;
+  /* Make the text size match everything else */
+  font-size: 1em;
+  padding: 0 .5em; }
+  form input[type=submit] {
+    /* Fill the available area */
+    width: 100%; }
+
+/*# sourceMappingURL=03.css.map */
