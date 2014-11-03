@@ -30,3 +30,22 @@ foreach ( $favourite_drinks as $name => $drinks ){
 	echo "</li>";
 }
 echo "</ul>";
+
+/*
+ * Great, now we have an outer loop that loops through each friend, and
+ * an inner loop that lists all the favourite drinks for that friend.
+ *
+ * Well, guess what? We're having a party, but not all of your friends can
+ * make it. Below is an array containing the friends that will be coming
+ * to the party. Can you figure out how to loop through this list and
+ * output just the drinks for THOSE friends?
+ *
+ * Use the same <ul><li> structure as you did before, listing each
+ * friend's name, and then a secondary <ul><li> structure to list their
+ * favourite drinks.
+ *
+ * HINT: You should still use your `list_friend_drinks()` function for the
+ * inner loop, so you don't have to do that work again!
+ */
+
+$party_friends = array( "Jane", "James", "Tanja", "Tim" );
